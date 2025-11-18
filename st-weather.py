@@ -10,7 +10,7 @@ API_KEY = 'YOUR_API_KEY_HERE'
 st.title('Weather App')
 city_list = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 
              'Philadelphia', 'Las Vegas', 'San Diego', 'Dallas', 
-             'San Jose', 'Boseman']
+             'San Jose', 'Bozeman']
 cities = st.multiselect('Select cities', city_list, default=['New York', 'Los Angeles'])
 st.markdown('---')
 
