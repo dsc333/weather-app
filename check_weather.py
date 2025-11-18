@@ -1,7 +1,7 @@
 import requests
 import json
 
-PI_KEY = 'YOUR_API_KEY_HERE'
+API_KEY = 'YOUR_API_KEY_HERE'
 city = input('Input city: ')
 
 payload = {'q':city, 'APPID':API_KEY}
